@@ -22,6 +22,7 @@ php artisan key:generate
 
 # Run Migrations and Seeders
 php artisan migrate
+
 php artisan db:seed --class=ProductSeeder
 
 # Start Laravel Server
